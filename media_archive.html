@@ -1,0 +1,318 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>X-webiste mockup</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.7/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+  <style type="text/css">
+	body {
+		font-family: "Open Sans";
+	}
+
+	.navbar-nav {
+	    float:none;
+	    margin: auto;
+	    display: block;
+	    text-align: center;
+	}
+
+	.navbar-nav > li {
+    	display: inline-block;
+    	float:none;
+	}
+	
+	.header {
+		font-size: 2vw;
+		padding-bottom: 2%;
+	}
+
+	.subheader {
+		font-size: 1.5vw;
+		padding-bottom: 1%;
+		padding-top: 5%;
+		font-weight: bold;
+	}
+
+	.main_text {
+		font-size: 1vw;
+		padding-right: 3%;
+		padding-bottom: 3%;
+		border-bottom: 0.1vw solid #bfbfbf;
+	}
+
+	.thick_line {
+		background-color: #67F234; 
+		height: 0.1vw;
+	}
+
+	.date_of_publication {
+		font-size: 1vw;
+		padding-bottom: 1%;
+		color: #737373;
+	}
+
+	footer {
+		padding-bottom: 1%;
+	}
+
+     /* Carousel section */
+.carousel {
+    height: 500px;
+    margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+ .carousel-caption {
+    z-index: 10;
+}
+/* Declare heights because of positioning of img element */
+ .carousel .item {
+    width: 100%;
+    height: 500px;
+    background-color: #777;
+}
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+@media (min-width: 768px) {
+    .carousel-caption p {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 1.4;
+    }
+}
+
+  </style>
+</head>
+
+<body>
+	<div class="container-fluid"> 
+		<div class="row">
+			<div class="col-md-5"></div>
+			<div class="col-md-2">
+				<img src="logga.png" style="width:100%; height:auto; padding: 10%;">
+			</div>
+			<div class="col-md-5"></div>
+		</div>
+	</div>
+
+	<nav class="navbar navbar-default">
+  		<div class="container-fluid">
+    		<ul class="nav navbar-nav">
+      			<li class="active"><a href="#">Start</a></li>
+      			<li class="dropdown">
+        			<a class="dropdown-toggle" data-toggle="dropdown" href="#">Arkiv
+        			<span class="caret"></span></a>
+        			<ul class="dropdown-menu">
+          				<li><a href="#">Tentor</a></li>
+          				<li><a href="#">Spex</a></li>
+          				<li><a href="#">Stadgar</a></li>
+    				</ul>
+    			</li>
+    		<li><a href="#">Sektionen</a></li>
+      		<li><a href="#">Blivande student</a></li>
+      		<li><a href="#">Kontakt</a></li>
+      		<li><a href="#">Schema</a></li>
+  		</div>
+	</nav>
+        
+        
+        
+<div class="container">
+    <div id="main_area">
+        <!-- Slider -->
+        <div class="row">
+            <div class="col-sm-6" id="slider-thumbs">
+                <!-- Bottom switcher of slider -->
+                <ul class="hide-bullets">
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-0">
+                            <img src="http://placehold.it/150x150&text=zero">
+                        </a>
+                    </li>
+
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-1"><img src="http://placehold.it/150x150&text=1"></a>
+                    </li>
+
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-2"><img src="http://placehold.it/150x150&text=2"></a>
+                    </li>
+
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-3"><img src="http://placehold.it/150x150&text=3"></a>
+                    </li>
+
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-4"><img src="http://placehold.it/150x150&text=4"></a>
+                    </li>
+
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-5"><img src="http://placehold.it/150x150&text=5"></a>
+                    </li>
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-6"><img src="http://placehold.it/150x150&text=6"></a>
+                    </li>
+
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-7"><img src="http://placehold.it/150x150&text=7"></a>
+                    </li>
+
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-8"><img src="http://placehold.it/150x150&text=8"></a>
+                    </li>
+
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-9"><img src="http://placehold.it/150x150&text=9"></a>
+                    </li>
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-10"><img src="http://placehold.it/150x150&text=10"></a>
+                    </li>
+
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-11"><img src="http://placehold.it/150x150&text=11"></a>
+                    </li>
+
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-12"><img src="http://placehold.it/150x150&text=12"></a>
+                    </li>
+
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-13"><img src="http://placehold.it/150x150&text=13"></a>
+                    </li>
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-14"><img src="http://placehold.it/150x150&text=14"></a>
+                    </li>
+
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-15"><img src="http://placehold.it/150x150&text=15"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-6">
+                <div class="col-xs-12" id="slider">
+                    <!-- Top part of the slider -->
+                    <div class="row">
+                        <div class="col-sm-12" id="carousel-bounding-box">
+                            <div class="carousel slide" id="myCarousel">
+                                <!-- Carousel items -->
+                                <div class="carousel-inner">
+                                    <div class="active item" data-slide-number="0">
+                                        <img src="http://placehold.it/470x480&text=zero"></div>
+
+                                    <div class="item" data-slide-number="1">
+                                        <img src="http://placehold.it/470x480&text=1"></div>
+
+                                    <div class="item" data-slide-number="2">
+                                        <img src="http://placehold.it/470x480&text=2"></div>
+
+                                    <div class="item" data-slide-number="3">
+                                        <img src="http://placehold.it/470x480&text=3"></div>
+
+                                    <div class="item" data-slide-number="4">
+                                        <img src="http://placehold.it/470x480&text=4"></div>
+
+                                    <div class="item" data-slide-number="5">
+                                        <img src="http://placehold.it/470x480&text=5"></div>
+                                    
+                                    <div class="item" data-slide-number="6">
+                                        <img src="http://placehold.it/470x480&text=6"></div>
+                                    
+                                    <div class="item" data-slide-number="7">
+                                        <img src="http://placehold.it/470x480&text=7"></div>
+                                    
+                                    <div class="item" data-slide-number="8">
+                                        <img src="http://placehold.it/470x480&text=8"></div>
+                                    
+                                    <div class="item" data-slide-number="9">
+                                        <img src="http://placehold.it/470x480&text=9"></div>
+                                    
+                                    <div class="item" data-slide-number="10">
+                                        <img src="http://placehold.it/470x480&text=10"></div>
+                                    
+                                    <div class="item" data-slide-number="11">
+                                        <img src="http://placehold.it/470x480&text=11"></div>
+                                    
+                                    <div class="item" data-slide-number="12">
+                                        <img src="http://placehold.it/470x480&text=12"></div>
+
+                                    <div class="item" data-slide-number="13">
+                                        <img src="http://placehold.it/470x480&text=13"></div>
+
+                                    <div class="item" data-slide-number="14">
+                                        <img src="http://placehold.it/470x480&text=14"></div>
+
+                                    <div class="item" data-slide-number="15">
+                                        <img src="http://placehold.it/470x480&text=15"></div>
+                                </div>
+                                <!-- Carousel nav -->
+                                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/Slider-->
+        </div>
+
+    </div>
+</div>
+        
+ <script>
+$(function(){
+       $('#myCarousel').carousel({
+                interval: 5000
+        });
+ 
+        //Handles the carousel thumbnails
+        $('[id^=carousel-selector-]').click(function () {
+        var id_selector = $(this).attr("id");
+        try {
+            var id = /-(\d+)$/.exec(id_selector)[1];
+            console.log(id_selector, id);
+            jQuery('#myCarousel').carousel(parseInt(id));
+        } catch (e) {
+            console.log('Regex failed!', e);
+        }
+    });
+        // When the carousel slides, auto update the text
+        $('#myCarousel').on('slid.bs.carousel', function (e) {
+                 var id = $('.item.active').data('slide-number');
+                $('#carousel-text').html($('#slide-content-'+id).html());
+        });
+}};
+        </script>
+        
+        <footer class="page-footer">
+    <div class="container-fluid text-center text-md-left">
+        <div class="row">
+        	<div class="col-md-8"></div>
+            <div class="col-md-4">
+            	<div class="text-uppercase">Kontakta oss</div>
+            	<div style="font-size: 3vw;">
+                	<i class="fab fa-facebook"></i>
+                	<i class="fab fa-instagram"></i>
+                	<i class="fas fa-address-card"></i>
+           		</div>
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

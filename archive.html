@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>X-webiste mockup</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+  <style type="text/css">
+	body {
+		font-family: "Open Sans";
+	}
+
+	.navbar-nav {
+	    float:none;
+	    margin: auto;
+	    display: block;
+	    text-align: center;
+	}
+
+	.navbar-nav > li {
+    	display: inline-block;
+    	float:none;
+	}
+	
+	.header {
+		font-size: 2vw;
+		padding-bottom: 2%;
+	}
+
+	.subheader {
+		font-size: 1.5vw;
+		padding-bottom: 1%;
+		padding-top: 5%;
+		font-weight: bold;
+	}
+
+	.main_text {
+		font-size: 1vw;
+		padding-right: 3%;
+		padding-bottom: 3%;
+		border-bottom: 0.1vw solid #bfbfbf;
+	}
+
+	.thick_line {
+		background-color: #67F234; 
+		height: 0.1vw;
+	}
+
+	.date_of_publication {
+		font-size: 1vw;
+		padding-bottom: 1%;
+		color: #737373;
+	}
+
+	footer {
+		padding-bottom: 1%;
+	}
+
+
+  </style>
+</head>
+
+<body>
+	<div class="container-fluid"> 
+		<div class="row">
+			<div class="col-md-5"></div>
+			<div class="col-md-2">
+				<img src="logga.png" style="width:100%; height:auto; padding: 10%;">
+			</div>
+			<div class="col-md-5"></div>
+		</div>
+	</div>
+
+	<nav class="navbar navbar-default">
+  		<div class="container-fluid">
+    		<ul class="nav navbar-nav">
+      			<li class="active"><a href="#">Start</a></li>
+      			<li class="dropdown">
+        			<a class="dropdown-toggle" data-toggle="dropdown" href="#">Arkiv
+        			<span class="caret"></span></a>
+        			<ul class="dropdown-menu">
+          				<li><a href="#">Dokument</a></li>
+          				<li><a href="#">Mediaarkiv</a></li>
+    				</ul>
+    			</li>
+    		<li><a href="#">Sektionen</a></li>
+      		<li><a href="#">Blivande student</a></li>
+      		<li><a href="#">Kontakt</a></li>
+      		<li><a href="#">Schema</a></li>
+  		</div>
+	</nav>
+
+<div class="row-fluid">
+    <div class="col-md-1"></div>  
+    <div class="col-md-5">
+    <div class="container">
+        <div class="page-header">
+            <h1>Tentor och duggor</h1>      
+        </div>
+    </div> <!-- /.container-->
+    <div class="input-group">
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-default">Hämta </button>
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="caret"></span>
+          <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a href="#">Löst tenta</a></li>
+          <li><a href="#">Tenta</a></li>
+          <li><a href="#">Facit</a></li>
+          <li role="separator" class="divider"></li>
+          <li><a href="#">Separated link</a></li>
+        </ul>
+      </div><!-- /btn-group -->
+      <input type="text" class="form-control" aria-label="tentasearch" placeholder="Sök på kurskod eller kursnamn.">
+    </div><!-- /input-group -->
+  </div><!-- /.col-md-5 -->
+  <div class="col-md-5">
+    <div class="container">
+        <div class="page-header">
+            <h1>Spex</h1>      
+        </div>
+    </div> <!-- /.container-->
+    <div class="input-group">
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-default" aria-haspopup="true" aria-expanded="false">Hämta 
+      </div><!-- /btn-group -->
+      <input type="text" class="form-control" aria-label="..." placeholder="Sök på titel på spex">
+  </div><!-- /input-group -->
+  </div><!-- /.col-md-5 -->
+<div class="col-md-1"></div>  
+</div><!-- /.row-fluid -->
+
+<div class="row-fluid">
+    <div class="col-md-4"></div>  
+    <div class="col-md-6">
+        <div class="container">
+            <div class="page-header">
+                <h1>Protokoll och stadgar</h1>      
+            </div>
+        </div> <!-- /.container--> 
+        <div class="row">
+            <div class="col-md-4">
+                <div class="input-group">
+                    <div class="row-fluid">
+                        <div class="col-md-4">
+                            <button type="button" class="btn btn-default">Hämta </button>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="exampleRadios" id="vtRadio" value="option1" checked>
+                              <label class="form-check-label" for="vtRadio">
+                                VT
+                              </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="htRadio" value="option2">
+                                <label class="form-check-label" for="htRadio">
+                                    HT
+                                </label>
+                            </div> <!-- /.form-check -->
+                        </div> <!-- /.col-md-3 -->
+                        <div class="col-md-2">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">2018
+                                <span class="caret"></span>
+                                <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a href="#">2018</a></li>
+                              <li><a href="#">2017</a></li>
+                              <li><a href="#">2016</a></li>
+                              <li><a href="#">2015</a></li>
+                              <li><a href="#">2014</a></li>
+                              <li><a href="#">2013</a></li>
+                              <li><a href="#">2012</a></li>
+                              <li role="separator" class="divider"></li>
+                              <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </div> <!-- /.col-md-4 -->
+                        <div class="col-md-2"></div>
+                    </div> <!-- /.row -->
+                </div><!-- /input-group -->
+            </div> <!-- /.col-md-4 -->
+            <div class="col-md-2">
+            </div> <!-- /.col-md-2 -->
+            <div class="col-md-6">
+                <button type="btn btn-primary btn-lg btn-block">Stadgar</button>
+            </div> <!-- /.col-md-6 -->
+        </div> <!-- /.row -->
+    </div><!-- /.col-md-6 -->
+    <div class="col-md-2">
+        
+    </div> <!-- /.col-md-4 -->
+</div><!-- /.row -->
+        
+<footer class="page-footer">
+    <div class="container-fluid text-center text-md-left">
+        <div class="row">
+        	<div class="col-md-8"></div>
+            <div class="col-md-4">
+            	<div class="text-uppercase">Kontakta oss</div>
+            	<div style="font-size: 3vw;">
+                	<i class="fab fa-facebook"></i>
+                	<i class="fab fa-instagram"></i>
+                	<i class="fas fa-address-card"></i>
+           		</div>
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
